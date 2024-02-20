@@ -14,13 +14,13 @@
     fbq('track', 'PageView');
     fbq('track', 'Purchase',
     {
-        value: 115.00,
+        value: {{totalpaid}},
         currency: 'USD',
         content_type: 'product',
         contents: [
         {
-            id: '401',
-            quantity: 2
+            id: '{{courseids}}',
+            quantity: 1
         }]
     });
 </script>
