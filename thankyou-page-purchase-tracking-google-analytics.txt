@@ -1,0 +1,23 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QKQDYW9XXX"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-QKQDYW9XXX');
+
+    const queryParams = new URLSearchParams(window.location.search);
+    const id = queryParams.get("id");
+
+    if (queryParams.has("id")) {
+        gtag("event", "purchase", {
+            transaction_id: id,
+            value: 550.50,
+            currency: "INR",
+            items: [{
+                item_id: "SKU_1234",
+                item_name: "Stan and Friends Tee",
+            }]
+        });
+    }
+</script>
