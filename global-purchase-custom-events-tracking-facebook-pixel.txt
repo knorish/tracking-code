@@ -14,7 +14,7 @@
     fbq('track', 'PageView');
     fbq('trackCustom', 'purchase_on_knorish_site',
     {
-        orderid: "{{orderid}}"
+        orderid: "{{orderid}}",
         courseid: "{{item_id}}",
         coursename: "{{item_name}}",
         currency: "{{currency}}",
