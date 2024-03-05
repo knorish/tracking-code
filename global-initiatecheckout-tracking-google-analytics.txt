@@ -1,1 +1,16 @@
-code here
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QKQDYW9XXX"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-QKQDYW9XXX');
+    gtag("event", "begin_checkout", {
+        value: {{totalpaid}},
+        currency: "INR",
+        items: [{
+            item_id: "{{item_id}}",
+            item_name: "{{item_name}}",
+        }]
+    });
+</script>
