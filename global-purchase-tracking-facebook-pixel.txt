@@ -19,7 +19,7 @@
         content_type: 'product',
         contents: [
         {
-            id: '{{courseids}}',
+            id: '{{item_id}}',
             quantity: 1
         }]
     });
