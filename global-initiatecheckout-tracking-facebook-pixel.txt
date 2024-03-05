@@ -15,7 +15,7 @@
     fbq('track', 'InitiateCheckout',
     {
         value: {{price}},
-        currency: 'USD',
+        currency: 'INR',
         contents: [
         {
             id: '{{item_id}}',
