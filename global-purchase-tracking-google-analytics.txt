@@ -10,8 +10,8 @@
         value: {{totalpaid}},
         currency: "INR",
         items: [{
-            item_id: "{{courseids}}",
-            item_name: "{{coursenames}}",
+            item_id: "{{item_id}}",
+            item_name: "{{item_name}}",
         }]
     });
 </script>
