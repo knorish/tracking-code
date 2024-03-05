@@ -14,8 +14,8 @@
     fbq('track', 'PageView');
     fbq('trackCustom', 'initiatecheckout_on_knorish_site',
     {
-        courseid: "{{item_id}}",
-        coursename: "{{item_name}}",
+        item_id: "{{item_id}}",
+        item_name: "{{item_name}}",
         currency: "{{currency}}",
         price: "{{price}}"
     });
