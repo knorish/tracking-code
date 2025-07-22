@@ -20,7 +20,8 @@
         fbq('track', 'Purchase',
         {
             value: 550.50,
-            currency: 'INR'
+            currency: 'INR',
+            content_ids: ['your_course_bundle_id_here']
         });
 
     }
